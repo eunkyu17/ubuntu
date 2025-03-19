@@ -1,0 +1,282 @@
+[
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/sqlQuery",
+  "command": "/usr/bin/gcc  -I/home/eunkyu/kubig2025/ubuntu/sqlQuery/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/bookSql.c.o -c /home/eunkyu/kubig2025/ubuntu/sqlQuery/src/bookSql.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/sqlQuery/src/bookSql.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/sqlQuery",
+  "command": "/usr/bin/gcc  -I/home/eunkyu/kubig2025/ubuntu/sqlQuery/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/main.c.o -c /home/eunkyu/kubig2025/ubuntu/sqlQuery/src/main.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/sqlQuery/src/main.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/calculate",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/add.dir/add.c.o -c /home/eunkyu/kubig2025/ubuntu/calculate/add.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/calculate/add.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/calculate",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/cal.dir/cal.c.o -c /home/eunkyu/kubig2025/ubuntu/calculate/cal.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/calculate/cal.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/calculate",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/calc.dir/calc.c.o -c /home/eunkyu/kubig2025/ubuntu/calculate/calc.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/calculate/calc.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/calculate",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/division.dir/division.c.o -c /home/eunkyu/kubig2025/ubuntu/calculate/division.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/calculate/division.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/calculate",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/main.c.o -c /home/eunkyu/kubig2025/ubuntu/calculate/main.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/calculate/main.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/calculate",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/main2.dir/main2.c.o -c /home/eunkyu/kubig2025/ubuntu/calculate/main2.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/calculate/main2.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/calculate",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/minus.dir/minus.c.o -c /home/eunkyu/kubig2025/ubuntu/calculate/minus.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/calculate/minus.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/calculate",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/mul.dir/mul.c.o -c /home/eunkyu/kubig2025/ubuntu/calculate/mul.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/calculate/mul.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/calculate",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/re.dir/re.c.o -c /home/eunkyu/kubig2025/ubuntu/calculate/re.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/calculate/re.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/arithmetics.dir/arithmetics.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/arithmetics.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/arithmetics.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/celsius2fahr.dir/celsius2fahr.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/celsius2fahr.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/celsius2fahr.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/charNumber.dir/charNumber.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/charNumber.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/charNumber.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/compare.dir/compare.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/compare.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/compare.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/compare2.dir/compare2.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/compare2.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/compare2.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fahr2celsius.dir/fahr2celsius.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/fahr2celsius.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/fahr2celsius.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fourBit.dir/fourBit.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/fourBit.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/fourBit.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/fourBit2.dir/fourBit2.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/fourBit2.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/fourBit2.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/genderRatio.dir/genderRatio.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/genderRatio.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/genderRatio.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/increment.dir/increment.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/increment.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/increment.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/infinit.dir/infinit.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/infinit.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/infinit.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/limit.dir/limit.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/limit.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/limit.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/literal.dir/literal.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/literal.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/literal.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/oddeven.dir/oddeven.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/oddeven.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/oddeven.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sizeof.dir/sizeof.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/sizeof.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/sizeof.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/triangle.dir/triangle.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/triangle.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/triangle.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part1",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/triangle2.dir/triangle2.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part1/triangle2.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part1/triangle2.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/absolute.dir/absolute.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/absolute.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/absolute.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/ascii.dir/ascii.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/ascii.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/ascii.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/average2022Temp.dir/average2022Temp.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/average2022Temp.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/average2022Temp.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/baseball.dir/baseball.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/baseball.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/baseball.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/bigLetter.dir/bigLetter.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/bigLetter.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/bigLetter.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/dice.dir/dice.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/dice.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/dice.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/findMax.dir/findMax.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/findMax.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/findMax.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/findValueinArray.dir/findValueinArray.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/findValueinArray.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/findValueinArray.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/grade.dir/grade.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/grade.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/grade.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/grade2.dir/grade2.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/grade2.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/grade2.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/leafYear.dir/leafYear.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/leafYear.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/leafYear.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/multiplyTable.dir/multiplyTable.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/multiplyTable.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/multiplyTable.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/one2Ten.dir/one2Ten.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/one2Ten.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/one2Ten.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/one2TenDoWhile.dir/one2TenDoWhile.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/one2TenDoWhile.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/one2TenDoWhile.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/one2TenSum.dir/one2TenSum.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/one2TenSum.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/one2TenSum.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/one2TenWhile.dir/one2TenWhile.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/one2TenWhile.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/one2TenWhile.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/passFail.dir/passFail.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/passFail.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/passFail.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/posZeroNeg.dir/posZeroNeg.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/posZeroNeg.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/posZeroNeg.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/power.dir/power.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/power.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/power.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/procScore.dir/procScore.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/procScore.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/procScore.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/randomTwoInt.dir/randomTwoInt.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/randomTwoInt.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/randomTwoInt.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/returnValue.dir/returnValue.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/returnValue.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/returnValue.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/scoreGrade.dir/scoreGrade.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/scoreGrade.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/scoreGrade.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/star.dir/star.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/star.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/star.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/staticLocalVariable.dir/staticLocalVariable.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/staticLocalVariable.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/staticLocalVariable.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sumArray.dir/sumArray.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/sumArray.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/sumArray.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part2",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/sumMatrix.dir/sumMatrix.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part2/sumMatrix.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part2/sumMatrix.c"
+},
+{
+  "directory": "/home/eunkyu/kubig2025/ubuntu/build/c_example/part3",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/filePointer.dir/filePointer.c.o -c /home/eunkyu/kubig2025/ubuntu/c_example/part3/filePointer.c",
+  "file": "/home/eunkyu/kubig2025/ubuntu/c_example/part3/filePointer.c"
+}
+]

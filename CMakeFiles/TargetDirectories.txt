@@ -1,0 +1,15 @@
+/home/eunkyu/kubig2025/ubuntu/CMakeFiles/edit_cache.dir
+/home/eunkyu/kubig2025/ubuntu/CMakeFiles/rebuild_cache.dir
+/home/eunkyu/kubig2025/ubuntu/sqlQuery/CMakeFiles/bookSql.dir
+/home/eunkyu/kubig2025/ubuntu/sqlQuery/CMakeFiles/edit_cache.dir
+/home/eunkyu/kubig2025/ubuntu/sqlQuery/CMakeFiles/rebuild_cache.dir
+/home/eunkyu/kubig2025/ubuntu/calculate/CMakeFiles/edit_cache.dir
+/home/eunkyu/kubig2025/ubuntu/calculate/CMakeFiles/rebuild_cache.dir
+/home/eunkyu/kubig2025/ubuntu/c_example/part1/CMakeFiles/arithmetics.dir
+/home/eunkyu/kubig2025/ubuntu/c_example/part1/CMakeFiles/edit_cache.dir
+/home/eunkyu/kubig2025/ubuntu/c_example/part1/CMakeFiles/rebuild_cache.dir
+/home/eunkyu/kubig2025/ubuntu/c_example/part2/CMakeFiles/absolute.dir
+/home/eunkyu/kubig2025/ubuntu/c_example/part2/CMakeFiles/edit_cache.dir
+/home/eunkyu/kubig2025/ubuntu/c_example/part2/CMakeFiles/rebuild_cache.dir
+/home/eunkyu/kubig2025/ubuntu/c_example/part3/CMakeFiles/edit_cache.dir
+/home/eunkyu/kubig2025/ubuntu/c_example/part3/CMakeFiles/rebuild_cache.dir

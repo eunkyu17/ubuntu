@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/one2TenSum.dir/one2TenSum.c.o -o one2TenSum 

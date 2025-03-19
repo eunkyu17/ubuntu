@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/minus.dir/minus.c.o -o minus 
