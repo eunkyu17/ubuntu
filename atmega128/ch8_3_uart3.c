@@ -19,8 +19,8 @@ int main()
     DDRE = 0x02; // Rx(입력), TX(출력)1, SW0~3 입력
 
     EICRB = 0xFF; // 4567 상승 엣지에서 동작 289p.
-    EIMSK = 0xF0; // 4567 허용
-    EIFR = 0xF0;  // 4567 클리어
+    EIMSK = 0xF0; // 4567 허용.
+    EIFR = 0xF0;  // 4567 클리어.
 
     sei(); // 전역 인터럽트 허용
     char cData;
