@@ -1,39 +1,76 @@
+#include "lcd.h"
+#include "uart0.h"
 #include <avr/interrupt.h>
 #include <avr/io.h>
+#include <stdio.h>
 
-volatile uint8_t txFlag = 0;
-volatile char txData = 0;
-
-uint8_t getch(void)
-{
-    uint8_t data;
-    while ((UCSR0A & 0x80) == 0) // 문자 버퍼에 있으면 루프 탈출
-        ;
-    data = UDR0;
-    UCSR0A |= 0x80;
-    return data;
-}
+volatile uint8_t intData = '0';
+uint8_t cursor = 0;
 
 int main()
 {
-    uint8_t numbers[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x27, 0x7F, 0x67};
-    uint8_t rxData;
-    DDRA = 0xFF;
+    uart0Init();
+    lcdInit();
 
-    UCSR0A = 0x00;
-    UCSR0B = 0x18; // 0b00011000 Rx, Tx enable
-    UCSR0C = 0x16; // 0b00010110  비동기, no Parity, 1 stop bit
+    stdin = &INPUT;
+    stdout = &OUTPUT;
 
-    UBRR0H = 0x00;
-    UBRR0L = 0x07; // 115200 bps
+    DDRE = 0x02; // Rx(입력), TX(출력)1, SW0~3 입력
+
+    EICRB = 0xFF; // 4567 상승 엣지에서 동작 289p.
+    EIMSK = 0xF0; // 4567 허용
+    EIFR = 0xF0;  // 4567 클리어
+
+    sei(); // 전역 인터럽트 허용
+    char cData;
+
+    printf("Hi, I'm Atmega128");
 
     while (1)
     {
-        rxData = getch();
-        if ((rxData >= 0x30) && (rxData <= 0x39))
+        if (intData != '0')
         {
-            PORTA = numbers[rxData - 0x30];
+            printf("\n\r Input Switch : %c", intData);
+            intData = '0';
+        }
+        cData = fgetc(stdin);
+        lcdDataWrite(cData);
+        cursor++;
+        if (cursor == 16)
+            lcdGotoXY(0, 1);
+        else if (cursor >= 32)
+        {
+            cursor = 0;
+            lcdGotoXY(0, 0);
         }
     }
     return 0;
+}
+
+ISR(INT4_vect)
+{
+    cli();
+    intData = '1';
+    sei();
+}
+
+ISR(INT5_vect)
+{
+    cli();
+    intData = '2';
+    sei();
+}
+
+ISR(INT6_vect)
+{
+    cli();
+    intData = '3';
+    sei();
+}
+
+ISR(INT7_vect)
+{
+    cli();
+    intData = '4';
+    sei();
 }
