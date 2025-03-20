@@ -33,8 +33,8 @@ int main()
             printf("\n\r Input Switch : %c", intData);
             intData = '0';
         }
-        // TODO : 4개 문자 이상 못 받아 오는 문제 버퍼 문제 해결
-        cData = fgetc(stdin);
+        // TODO : 4개 문자 이상 못 받아 오는 문제 버퍼 문제 해결 s
+        // cData = fgetc(stdin);
         lcdDataWrite(cData);
         cursor++;
         if (cursor == 16)
