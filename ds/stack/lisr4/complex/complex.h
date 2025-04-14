@@ -8,8 +8,16 @@ private:  // implemetation(구현)
 
 public:  // interface(겉, 껍데기)
     Comlpex(double re, double im );              // constructor
-   -Complex(  );             // destructor
+    Complex(double re);
+    Comlpex();
+   -Complex( );             // destructor
 
+    double real();
+    double imag();
+
+     void real (double re);
+     void imag (double im);
+   
    // ...
 };
 
