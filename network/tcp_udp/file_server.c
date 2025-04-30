@@ -66,6 +66,8 @@ int main(int argc, char *argv[])
 
     // 우아한 종료
     shutdown(clnt_sock, SHUT_WR);
+    // shutdown(clnt_sock, SHUT_RD); // recvQ흐름을 방해한다.
+    shutdown(serv_sock, SHUT_RD);              // 서버의 recvQ 는 클라이언트 패킷 전달에 상관 없다!
     read(clnt_sock, buf, BUF_SIZE);            // sendQ 종료!! recvQ 살아 있음.
     printf("Message from client: %s \n", buf); // sendQ 종료!! recvQ 살아 있음.
 
