@@ -106,7 +106,7 @@
         "signal.h": "c"
     },
     "ros.distro": "humble",
-    "cmake.sourceDirectory": "/home/aa/kuBig2025",
+    "cmake.sourceDirectory": "/home/eunkyu/kubig2025/ubuntu",
     "github.copilot.enable": {
         "*": false,
         "plaintext": true,
