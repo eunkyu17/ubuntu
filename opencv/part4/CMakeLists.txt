@@ -10,3 +10,7 @@ foreach(SOURCE ${SOURCES})
     add_executable(${EXE_NAME} ${SOURCE})
     target_link_libraries(${EXE_NAME} ${OpenCV_LIBS})
 endforeach()
+
+add_executable(houghCircle part4/34_hougCircle.cpp)
+target_link_libraries(houghCircle ${OpenCV_LIBS})
+
